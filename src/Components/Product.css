@@ -1,0 +1,56 @@
+.productCard{
+    width: 70%;
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    min-height: 250;
+}
+
+.listCard{
+    width: 18rem;
+}
+
+.listImg {
+    height: 191px;
+    width: auto;
+}
+
+.productBtn{
+    width: 250px;
+    background-color: #7064E5;
+}
+
+
+/* Responsive styles for medium-sized screens */
+@media (max-width: 768px) {
+    .productCard {
+        width: 30%; /* Adjust the width as needed for your design */
+        margin-top: 50px; /* Adjust the margin-top as needed for your design */
+        min-height: 200;
+    }
+    .listCard{
+        width: 12rem;
+    }
+    .productBtn{
+        width: 163px;
+        background-color: #7064E5;
+    }
+  }
+  
+  /* Responsive styles for small-sized screens */
+  @media (max-width: 576px) {
+    .productCard {
+        width: 30% !important; /* Adjust the width as needed for your design */
+        margin-top: 50px; /* Adjust the margin-top as needed for your design */
+        min-height: 200;
+    }
+    .listImg {
+        height: 150px;
+        width: 150px;
+    }
+    .productBtn{
+        width: 100px;
+        background-color: #7064E5;
+    }
+  }

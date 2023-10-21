@@ -1,0 +1,29 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filterComponet {
+    width: 12rem;
+    margin-top: 200px;
+    background-color: #F0F0FC;
+    position: fixed;
+}
+
+/* Responsive styles for medium-sized screens */
+@media (min-width: 768px) {
+    .filterComponent {
+        position: relative;
+      width: 50%; 
+      margin-top: 0px !important; 
+    }
+  }
+  
+  /* Responsive styles for small-sized screens */
+  @media (min-width: 576px) {
+    .filterComponent {
+      width: 50%; 
+      margin-top: 60px; 
+    }
+  }
